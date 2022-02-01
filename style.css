@@ -1,0 +1,146 @@
+body {
+  background-color: #dfbaee;
+}
+
+header {
+  background-color: #8051c2;
+}
+
+h1 {
+  color: #fff;
+  padding: 15px;
+  font-size: 35px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+input {
+  background-color: #fffcf7;
+}
+
+#sizer {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#beginning {
+  width: 75%;
+  margin: 25px auto;
+  text-align: center;
+}
+
+#beginning input {
+  width: 200px;
+  height: 30px;
+  font-size: 30px;
+}
+
+#beginning button {
+  width: 100px;
+  height: 36px;
+  font-size: 22px;
+  vertical-align: top;
+}
+
+#current-turn {
+  width: 75%;
+  margin: 15px auto;
+  text-align: center;
+}
+
+#game-div {
+  text-align: center;
+}
+
+#player1,
+#result,
+#player2 {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 25%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #000;
+  margin: 2%;
+  text-align: center;
+  vertical-align: top;
+}
+
+#player1-name,
+#player2-name {
+  margin-bottom: 15px;
+  font-size: 27px;
+}
+
+#player1-chosen,
+#player2-chosen {
+  margin-top: 25px;
+  font-size: 60px;
+}
+
+li {
+  list-style: none;
+  margin: 12px 0;
+  font-size: 24px;
+}
+
+.outcomes {
+  position: absolute;
+  bottom: 10px;
+  width: 90%;
+  text-align: center;
+}
+
+.outcome-trackers {
+  display: inline-block;
+}
+
+#result h2 {
+  margin-top: 20px;
+  font-size: 60px;
+}
+
+#chat {
+  position: relative;
+  width: 855px;
+  height: 205px;
+  padding: 10px;
+  margin: 20px auto;
+  font-size: 25px;
+}
+
+#chat-messages {
+  height: 175px;
+  overflow: auto;
+  background-color: #fffcf7;
+}
+
+#chat-bar {
+  position: absolute;
+  bottom: 10px;
+}
+
+#chat-input {
+  width: 755px;
+}
+
+#chat-send {
+  width: 90px;
+}
+
+.player1 {
+  color: #0210d6;
+}
+
+.player2 {
+  color: #410e0e;
+}
+
+.player0 {
+  color: #000;
+  background-color: #d3d3d3;
+}
